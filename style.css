@@ -1,0 +1,219 @@
+*{ margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.skills .progress{
+    height: 60px;
+    Display: block;
+    background:none;
+    border-radius: 0;
+
+}
+.skills .progress .skill{
+padding: 0;
+margin: 0 0 6px 0;
+text-transform: uppercase;
+display: block;
+font-weight: 600;
+color: blue;
+
+}
+
+ul#portfoliolist {
+width: 60%;
+margin-left: 528px;
+}
+
+ul#portfoliolist li {
+float: left;
+margin-left: 20px;
+}
+
+ul#portfoliolist li a {
+padding: 10px 10px;
+border: 1px solid white;
+border-radius: 17px;
+}
+
+.container-fluid {
+text-align: center;
+}
+
+ul#portfoliolist li a:hover{
+background:#47B2E4;
+text-decoration: none;
+color: black;
+transition: 0.5s;
+}
+.dropdown:hover> .dropdown-menu{
+    display: block;
+    
+}
+main{
+    margin-left:100px
+}
+.box{
+    display: block;
+    float: left;
+    width:30%;
+    padding: 10px;
+    align-content: center;
+
+}
+
+.container-fluid{
+    display:inline-grid;
+}
+.box img{
+    width:50%;
+    height:50%;
+} 
+.box img:hover{
+    transform: scale3d(1.1,1.1,1.1);
+    transition: .4s ;
+}
+
+header{
+    color: white; 
+    background-color:#37517e;
+    /* position: absolute; */
+    
+}
+
+nav.navbar.navbar-expand-md.navbar-light.fixed-top.bg-primary {
+    padding: 10px;
+}
+li#gtst {
+    padding: 10PX 30PX;
+    border-radius: 30px;
+    border: 2px solid #31A9E1;
+    background-color: black;
+}
+
+li#gtst a {
+    color: black;
+    text-decoration: none;
+}
+nav#navmenu {
+    background: rgba(40, 58, 90, 0.9);
+    padding: 9px;
+}
+
+li#gtst:hover {
+    background-color:#31A9E1;
+    
+}
+.us .content h3{
+    color:skyblue;
+}
+
+div#about11 {
+    padding: 80px 10px;
+  
+}
+div#about11 :hover{
+   
+    transition: .4s transform;
+
+
+}
+div#service11{
+    padding: 80px 10px;
+}
+div#portfolio11{
+    padding: 80px 10px; 
+}
+.col-lg-6.col-md-6.col-12 p {
+    text-align: justify;
+}
+
+p#textpp {
+    padding: 0px 98px;
+    font-size: 19px;
+    font: weight 300px;;
+}
+div#content {
+    color: #37517E;
+    text-align: initial;
+    padding: 20px 80px;
+}
+
+#contentrow{
+    background:#F3F5FA ;
+}
+
+i#iconbar {
+    padding: 10px 30px;
+    padding-right: 247px;
+    color: #37517E;
+}
+.card-block {
+    height: 225px;
+    /* width: 253px; */
+}
+
+.card {
+    width: 250px;
+
+    /* background: azure; */
+}
+#team2{
+    width: 450px;
+    padding-left: 70px;
+    display:inline-block;
+
+}
+.card-body img{
+    float:left;
+    padding-right: 20px;
+}
+
+#iconsetup a{
+    padding: 20px ;
+}
+
+.card-title p {
+    text-align: left;
+    padding: 21px 21px;
+}
+section#service {
+    background: #F3F5FA;
+}
+.card-title a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #566C92;
+    margin-right: 55px;
+}
+.col-lg-3.col-md-3.col-12:hover {
+    width: 20%;
+    transition: .5s;
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+h3 {
+    color: #37517E;
+}
+#pricing p{
+
+        padding-left: 115px;
+    }
+#pricing h4 {
+    font-size: 39px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: inline-block;
+}
+#pricing span {
+    display: block;
+    font-size: 18px;
+    color: #47b2e4;
+}
+
+
+
+
+
+
+
